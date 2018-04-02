@@ -1,0 +1,52 @@
+							BASIC INFORMATION ABOUT ANDROID
+
+What is Android?
+Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. It offers unified approach to application development for mobile devices which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android.
+The first beta version of the Android Software Development Kit (SDK) was released by Google in 2007 where as the first commercial version, Android 1.0, was released in September 2008.
+The source code for Android is available under free and open source software licenses. Google publishes most of the code under the Apache License version 2.0 and the rest, Linux kernel changes, under the GNU General Public License version 2.
+
+What is API level?
+API Level is an integer value that uniquely identifies the framework API revision offered by a version of the Android platform.
+
+						COMPONENTS REQUIRED TO DEVELOP ANDROID APPLICATIONS 
+
+ 1) Operating systems −
+	Microsoft Windows XP or later version.
+    	Mac OS X 10.5.8 or later version with Intel chip.
+    	Linux including GNU C Library 2.7 or later.
+
+2)the list of software's you will need before you start your Android application programming.
+	Java JDK5 or later version
+	Android Studio
+
+						Android - Architecture
+
+1)Linux kernel : At the bottom of the layers is Linux - Linux 3.6 with approximately 115 patches. This provides a level of abstraction between the device hardware and it contains all the essential hardware drivers like camera, keypad, display etc.
+2)Libraries : open-source Web browser engine WebKit,well known library libc, SQLite database,SSL libraries etc.
+3)Android Libraries : android.app,android.content,android.database,android.opengl,android.os and many more.
+4)Android Runtime : This section provides a key component called Dalvik Virtual Machine which is a kind of Java Virtual Machine specially 		designed and optimized for Android.
+
+						Android - Application Components
+
+There are following four main components that can be used within an Android application −
+1 Activities : They dictate the UI and handle the user interaction to the smart phone screen.
+2 Services : They handle background processing associated with an application.
+3 Broadcast Receivers : They handle communication between Android OS and applications.
+4 Content Providers :They handle data and database management issues.
+5) Additional Components :There are additional components which will be used in the construction of above mentioned entities, their logic, and wiring between them. These components are − Fragments,Views,Layouts,Intents,Resources ,Manifest etc.
+
+					Directories In Android Application
+
+1)Java : This contains the .java source files for your project. By default, it includes an MainActivity.java source file having an activity class that runs when your app is launched using the app icon.
+2)res/drawable-hdpi : This is a directory for drawable objects that are designed for high-density screens.
+3)res/layout: This is a directory for files that define your app's user interface.
+4)res/values: This is a directory for other various XML files that contain a collection of resources, such as strings and colours definitions.
+5)AndroidManifest.xml :This is the manifest file which describes the fundamental characteristics of the app and defines each of its components.
+6)Build.gradle: This is an auto generated file which contains compileSdkVersion, buildToolsVersion, applicationId, minSdkVersion, targetSdkVersion, versionCode and versionName
+
+
+
+
+
+
+
